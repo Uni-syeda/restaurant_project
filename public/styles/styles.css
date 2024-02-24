@@ -1,4 +1,11 @@
 /* hex values for my root */
+:root{
+--grey: #c2c2c2;
+--yellow: #fccf14;
+--white: #ffffff;
+--black:#110f0f;
+--goldenrod:#DAA520;
+}
 
 *{
     margin: 0;
@@ -6,10 +13,136 @@
     box-sizing: border-box;
 }
 
-/* header/nav*/
+/* --------header/nav-----------*/
+/* header section */
+nav, header {
+    /* font-family: 'Fredericka the great'; */
+    font-family: "Muli",Sans-serif;;
+}
+
+.nav-style {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+.logo-size {
+    width: 250px; /* Set the logo size */
+    margin-left: 120px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-display {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+#color-white {
+    color: white;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+ .conatiner-center{
+    text-align: center; /* Center align the text */
+    margin-top: 75px; 
+
+}
+/*------- heading section --------*/
+
+h1, h2 {
+    font-size: 4rem;
+    margin-top: 15px; /* Remove default margin to ensure proper centering */
+}
+
+/*-------Button section --------*/
+
+.button-styles{
+    margin:30px;
+    padding:25px;
+    background-color:var(--goldenrod);
+    box-shadow:var(--goldenrod);
+    font-size: 2rem;
+    border-radius: 20px;  
+    width: 400px; 
+    color:var(--white);
+    border:none;
+}
+
+/* ----------- footer styles --------------*/
+footer{
+    width:100%;
+    height:600px;
+    background-color: var(--black);
+}
+
+.footer-display{
+    display:flex;
+    justify-content: center;
+
+}
+
+.footer-section{
+    height:500px;
+    width:30%;
+    border:2px solid yellow;
+    margin:50px;
+    
+}
+
+.footer-logo {
+    width: 450px;
+    height: 350px;
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+    
+}
+h3,p{
+    color:white;
+    font-family: "Roboto",Sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    padding:2px;
+}
+
+
+    
+
+
+
+
+
+
+/* .nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+} */
+
+
+
 /* body styles */
 /* link styles */
 /* table/form styles -flexbox*/
-/* footer styles*/
+
 /* media query*/
 /* form fields */
