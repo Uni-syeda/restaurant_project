@@ -1,0 +1,66 @@
+/* about page styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    width:50%;
+    height:700px;
+    background-color: rgb(13, 11, 11);
+    /* background-image: url('public/assets/6191107.jpg'); */
+    /* background-image: url('./public/assets/6191107.jpg'); */
+    /* background-image: linear-gradient(rgb(19, 16, 16), rgb(244, 213, 88)); */
+    margin:auto;
+    margin-top: 20px;
+  }
+  .menu-top-image{
+    height:150px;
+    width:30%;
+
+  }
+  hr{
+    color:rgb(140, 103, 8);
+  }
+  .h1-style{
+    color:white;
+    /* font-family: 'Raleway',sans-serif; */
+    text-align: center;
+    font-size: 2rem;
+  }
+  .color-golden{
+    color:yellow;
+  }
+  .menu {
+    padding: 20px;
+  }
+  .category {
+    margin-bottom: 10px;
+  }
+  .category h2 {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #000;
+  }
+  .items {
+    list-style: none;
+    padding: 0;
+    margin: 40px;
+  }
+  /* .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    color:white;
+  } */
+  .item-name {
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+  }
+  .item-price {
+    color: #989292;
+    margin-left: 50px;
+
+  }
