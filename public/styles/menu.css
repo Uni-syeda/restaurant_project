@@ -4,18 +4,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    /* background: url('./public/assets/6191107.jpg');  */
   }
-  section{
-    width:50%;
-    height:700px;
-    background-color: rgb(13, 11, 11);
-    /* background-image: url('public/assets/6191107.jpg'); */
-    /* background-image: url('./public/assets/6191107.jpg'); */
-    /* background-image: linear-gradient(rgb(19, 16, 16), rgb(244, 213, 88)); */
-    margin:auto;
+  div{
     margin-top: 20px;
   }
-  .menu-top-image{
+
+  .menu {
+    width: 50%; /* Adjust the width as needed */
+    height: 900px; /* Adjust the height as needed */
+    margin-top: 60px; /* Adjust the top margin as needed */
+    /* margin-bottom: 50px; */ /* Uncomment this line if you want a bottom margin */
+    line-height: 1.7;
+    text-align: center; /* This centers the content inside the element */
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* This centers the image horizontally within its container */
+}
+
+/* .menu img {
+    display: block; /* Ensure the image is treated as a block element 
+    margin: 0 auto; /* This centers the image horizontally within its container 
+} */
+
+  /* .menu{
+    width:50%;
+    height:900px;
+    /* background-color: rgb(13, 11, 11); */
+    /* background-image: url('../assets/6191107.jpg'); */
+    /* background-image: url('./public/assets/6191107.jpg'); */
+    /* background-image: linear-gradient(rgb(19, 16, 16), rgb(244, 213, 88)); 
+    margin:auto;
+    margin-top: 30px;
+    /* margin-bottom: 50px; 
+    line-height: 1.7;
+    text-align: center;
+  } */
+
+  /* .menu-top-image{
     height:150px;
     width:30%;
 
@@ -25,7 +50,7 @@ body {
   }
   .h1-style{
     color:white;
-    /* font-family: 'Raleway',sans-serif; */
+    /* font-family: 'Raleway',sans-serif; 
     text-align: center;
     font-size: 2rem;
   }
@@ -53,7 +78,7 @@ body {
     justify-content: space-between;
     padding: 5px 0;
     color:white;
-  } */
+  } 
   .item-name {
     font-weight: bold;
     color:white;
@@ -63,4 +88,4 @@ body {
     color: #989292;
     margin-left: 50px;
 
-  }
+  } */
