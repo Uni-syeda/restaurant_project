@@ -15,7 +15,10 @@
 }
 
 /* --------header/nav-----------*/
-/* header section */
+
+ 
+/* styles for header */
+
 nav, header {
     /* font-family: 'Fredericka the great'; */
     font-family: "Muli",Sans-serif;
@@ -70,11 +73,31 @@ nav, header {
     margin-right: 30px;
 }
 
- .container-center{
+.container-center{
     text-align: center; /* Center align the text */
     margin-top: 75px; 
-
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .logo-size {
+        width: 150px; /* Adjust logo size for smaller screens */
+        margin-left: 50px; /* Adjust logo margin for smaller screens */
+    }
+    
+    .nav-item {
+        font-size: 12px; /* Adjust font size of nav items for smaller screens */
+    }
+    
+    #color-white {
+        margin-right: 20px; /* Adjust margin of color-white anchor for smaller screens */
+    }
+    
+    .nav-item a {
+        margin-right: 15px; /* Adjust margin of nav item anchor for smaller screens */
+    }
+}
+
 /*------- heading section --------*/
 
 h1, h2 {
@@ -97,127 +120,140 @@ h1, h2 {
     border:none;
     cursor: pointer;
 }
-.button-link {
-    
-  }
 
-/* ----------- footer styles --------------*/
-footer{
-    width:100%;
-    height:500px;
+
+/* styles for footer */
+footer {
+    width: 100%;
+    height: 500px;
     background-color: #420505;
     border: 10px solid darkgoldenrod;
 }
 
-.footer-display{
-    display:flex;
+.footer-display {
+    display: flex;
     justify-content: center;
-
 }
 
-.footer-section{
-    height:400px;
-    width:30%;
-    border:2px solid yellow;
-    margin:50px;
-    
+.footer-section {
+    height: 400px;
+    width: 30%;
+    border: 2px solid yellow;
+    margin: 50px;
 }
 
 .footer-logo {
     width: 350px;
     height: 250px;
-    display: block; /* Ensures the image is treated as a block-level element */
-    margin: 0 auto; /* Centers the image horizontally */
-    
+    display: block;
+    margin: 0 auto;
 }
-.clock-color{
+
+.clock-color {
     color: var(--yellow);
-    /* text-align: center;*/
-     margin-left:30px; 
-    /* margin-right: 8px; */
-} 
-.footer-pg{
-    color:#FFFFBB;
-    font-family: "Roboto",Sans-serif;
+    margin-left: 30px;
+}
+
+.footer-pg {
+    color: #FFFFBB;
+    font-family: "Roboto", Sans-serif;
     font-size: 20px;
     text-align: center;
-    /* display:flex;
-    justify-content: center; */
-    /* margin-left:50px; */
-    /* line-height: 1; */
-    padding:2px;
+    padding: 2px;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 150px;
 }
-/* .flex{
-     display:flex;
-    justify-content: left; 
-} */
-.footer-heading{
+
+.footer-heading {
     color: #F7C647;
-    margin-top:40px;
-    font-family: "Muli",Sans-serif;
+    margin-top: 40px;
+    font-family: "Muli", Sans-serif;
     font-size: 30px;
     text-align: center;
-    line-height: 1;
-    padding:2px;
+    padding: 2px;
 }
-.white-color{
-    color:white;
-    /* display:flex;
-    justify-content: center; */
-    margin-top:20px;
-    padding:10px;
-   
+
+.white-color {
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
 }
-.margin-left{
-    margin-left:140px;
+
+.margin-left {
+    margin-left: 140px;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer-section {
+        width: 80%; /* Adjust width for smaller screens */
+        margin: 20px; /* Adjust margin for smaller screens */
+        flex-wrap: wrap; /* Allow slides to wrap to the next line */
+        justify-content: center; 
+    }
+
+    .footer-logo {
+        width: 250px; /* Adjust logo width for smaller screens */
+        height: 150px; /* Adjust logo height for smaller screens */
+    }
+
+    .footer-pg {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .footer-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
+
 
 /* slider */
 
+/* Default styles for slider */
 .slider {
-    /* overflow: hidden; */
     width: 100%;
     height: 300px; /* Adjust the height as needed */
-    /* position: relative; */
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     margin-top: 30px;
     margin-bottom: 40px;
-  }
-  
-  .slide {
+}
+
+.slide {
     width: 400px;
     height: 300px;
-    /* border: 1px solid red; */
-    /* display: none;
-    position: absolute; */
     background-color: lightgrey;
-    
-  }
-  
-  .slide img {
+}
+
+.slide img {
     width: 350px;
     height: 250px;
-    padding:20px;
-    
-    /* object-fit: cover; */
-  }
-  
-  /* Add animation for sliding effect
-  @keyframes slide {
-    from {left: 0;}
-    to {left: -100%;}
-  }
-  
-  .slide.active {
-    display: block;
-    animation: slide 1s ease-in-out infinite;
-  }
-   */
-    
+    padding: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .slider {
+       
+        flex-wrap: wrap; /* Allow slides to wrap to the next line */
+        justify-content: center; /* Center align slides on smaller screens */
+    }
+
+    .slide {
+        width: 80%; /* Adjust slide width for smaller screens */
+        margin: 8px; /* Add margin between slides on smaller screens */
+        min-height:100px;
+    }
+
+    .slide img {
+        width: 100%; /* Make images responsive to fit smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
 
 
 /* --------- Media query section ----------- */
