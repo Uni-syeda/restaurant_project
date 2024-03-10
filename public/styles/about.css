@@ -1,0 +1,46 @@
+/* ----- about  section ----- */
+.flex-container {
+    display: flex;
+    /* border:1px solid red; */
+  }
+  
+  .flex-container > div {
+    margin: 20px 30px;
+    padding: 20px;
+    font-size: 20px;
+    /* border:1px solid green; */
+    width:50%;
+    height: 400px;
+  }
+.image{
+    height: 380px;
+    width:50%;
+    /* margin-left: 70px; */
+}
+/* .about-container{
+    display:flex;
+    margin-bottom: 50px;
+    margin-top:70px;
+    border:1px solid red;
+} */
+.red{
+    /* border:1px solid red; */
+}
+
+ .about-heading{
+    /* margin-right: 100px; */
+    color:#F7C647;
+    font-family: "Muli",Sans-serif;
+    /* border: 1px solid red; */
+}
+.h3-heading{
+    color:black;
+    /* margin-left:50px; */
+    font-family: "Muli",Sans-serif;
+    font-size: 1.5rem;
+    /* border:1px solid red; */
+} 
+.about-paragraph{
+    color:black;
+    font-family: "Muli",Sans-serif;
+} 
