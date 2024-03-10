@@ -220,20 +220,154 @@ footer{
     
 
 
+/* --------- Media query section ----------- */
+  /* Default styles for the hamburger icon 
+  .hamburger-icon {
+    display: none;
+    cursor: pointer;
+  }
 
+/*------ Mobile & Tablet ---
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .menu-item {
+      display: none; /* Hide menu items on small screens 
+    }
+  
+    .hamburger-icon {
+      display: block; /* Show hamburger icon on small screens 
+      color:white;
+      font-size:4rem;
+    }
+    h1,h2{
+      font-size: 1.5rem;
+    }
+    .footer-bar{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; 
+    }
 
+  }
 
-/* .nav-item:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
-} */
+/* CSS for screens with a width between 320px and 768px */
+/* @media screen and (min-width: 320px) and (max-width: 768px) {
+    /* Styles specific to this media query */
+    
+    /* Adjustments for the header *
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .nav-list {
+      margin-top: 20px;
+    }
+    
+    /* Adjustments for the content section *
+    .container-center {
+      text-align: center;
+      margin: 20px;
+    }
+    
+    /* Adjustments for the buttons *
+    .button-link {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    /* Adjustments for the slider *
+    .slider {
+      width: 100%;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    
+    .slide {
+      width: 100%;
+    }
+    
+    .slide img {
+      width: 100%;
+    }
+    
+    /* Adjustments for the footer *
+    .footer-display {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer-section {
+      margin-bottom: 20px;
+    }
+    
+    .footer-pg {
+      margin: 5px 0;
+    }
+  }
+   */
 
+   @media screen and (min-width: 320px) and (max-width: 768px) {
 
+    /* Header section */
 
-/* body styles */
-/* link styles */
-/* table/form styles -flexbox*/
-
-/* media query*/
-/* form fields */
+    .menu-item {
+        display: none; /* Hide menu items on small screens */
+      }
+    
+      .hamburger-icon {
+        display: block; /* Show hamburger icon on small screens */
+        color:white;
+        font-size:4rem;
+      }
+    .nav-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .logo-size {
+      width: 150px; /* Adjust logo size */
+      margin: 0; /* Remove margin */
+    }
+    
+    .nav-list {
+      margin-top: 10px; /* Adjust margin */
+    }
+    
+    /* Content section */
+    .container-center {
+      margin-top: 50px; /* Adjust margin */
+    }
+    
+    /* Button section */
+    .button-styles {
+      width: 200px; /* Adjust button width */
+      margin: 20px 0; /* Adjust margin */
+    }
+    
+    /* Slider section */
+    .slider {
+      margin: 20px 0; /* Adjust margin */
+    }
+    
+    /* Footer section */
+    .footer-section {
+      width: 90%; /* Adjust width */
+      margin: 20px auto; /* Center align */
+    }
+    
+    .footer-logo {
+      width: 200px; /* Adjust logo width */
+    }
+    
+    .footer-pg {
+      font-size: 16px; /* Adjust font size */
+    }
+    
+    .footer-heading {
+      font-size: 24px; /* Adjust font size */
+    }
+  }
+  

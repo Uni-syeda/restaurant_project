@@ -61,18 +61,23 @@ body {
         margin-top:15px;
         padding:5px;
     }
+    /* order section */
+    .box{
+      display:flex;
+      justify-content: flex-start;
+      /* margin-bottom:20px;  */
+    }
   .boxes{
     width:480px;
-    height: 150px;
+    min-height: 80px;
     border: 1px solid #ccc;
-    margin-left:40px;
+    /* margin-left:30px; */
     border-radius: 10px;
+    padding:5px;
+    /* overflow: hidden; */
+    margin-bottom:8px;
   }
-  .box{
-    display:flex;
-    justify-content: flex-start;
-    margin-bottom:20px; 
-  }
+  
   .boxes:hover {
     background-color: #ddd;
     /* color: black; */
@@ -80,7 +85,10 @@ body {
 
   h3,p{
     color: #1f1f1f;
-    margin-left:10px;
-    font-size: 14px;
+    margin-left:8px;
+    /* font-size: 1rem; */
     font-family: "Matter","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
+  /* h3{
+    line-height:0.5em;
+  } */
