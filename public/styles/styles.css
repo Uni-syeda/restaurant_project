@@ -163,12 +163,16 @@ footer{
     line-height: 1;
     padding:2px;
 }
-white-color{
+.white-color{
     color:white;
     /* display:flex;
     justify-content: center; */
-    margin-top:180px;
-    margin-left:50px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.margin-left{
+    margin-left:140px;
 }
 
 /* slider */
